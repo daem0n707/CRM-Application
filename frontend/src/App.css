@@ -1,0 +1,158 @@
+/* src/App.css */
+
+.App {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  background-color: #3b82f6;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  color: white;
+}
+
+.profile-pic {
+  background-color: #cccccc;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  font-size: 18px;
+}
+
+.main-content {
+  width: 80%;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.create-job {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.stat-item {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+}
+
+.stat-title {
+  margin: 0;
+  font-size: 14px;
+  color: #666666;
+}
+
+.stat-value {
+  margin: 5px 0 0 0;
+  font-size: 16px;
+  color: black;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  width: 45%;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.time-period {
+  font-size: 14px;
+  color: #666666;
+  margin: 10px 0;
+}
+
+.client-info, .expense-info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.client-pic {
+  background-color: #cccccc;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.client-name {
+  margin: 0;
+  font-size: 16px;
+}
+
+.client-email {
+  margin: 0;
+  font-size: 14px;
+  color: #666666;
+}
+
+.expense-info {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.job-name {
+  font-size: 16px;
+  margin: 0;
+}
+
+.budget {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.status {
+  font-size: 14px;
+  color: green;
+}
+
+.status.active {
+  color: green;
+}
